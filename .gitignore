@@ -1,0 +1,22 @@
+# compiled solvers
+constp
+constp2
+tn-parity/wronskian
+tn-parity/cert
+tn-parity/dense
+*.o
+
+# run artefacts
+out/
+logs/
+primes_*.txt
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# editors and os
+.vscode/
+.idea/
+.DS_Store

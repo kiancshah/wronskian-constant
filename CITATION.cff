@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper below."
+title: "wronskian-constant: exact computation of the Wronskian constants const(n)"
+abstract: >-
+  Multi-modular solvers for const(n), the integer relating alternating compositions
+  of weighted differential operators to the Wronskian of the weights, together with
+  a certificate for the associated mod-p identity.
+type: software
+authors:
+  - family-names: Shah
+    given-names: Kian
+    email: k.shah.8@student.rug.nl
+    affiliation: "University of Groningen"
+repository-code: "https://github.com/kiancshah/wronskian-constant"
+license: MIT
+keywords:
+  - Wronskian
+  - differential operators
+  - multi-modular arithmetic
+  - dynamic programming
+  - p-adic valuation
+  - OEIS
+references:
+  - type: article
+    title: "The alternating compositions of weighted differential operators yield the weights' Wronskian with which constant?"
+    authors:
+      - family-names: Shah
+        given-names: Kian C.
+      - family-names: Kiselev
+        given-names: Arthemy V.
+    year: 2026
+    identifiers:
+      - type: other
+        value: "arXiv:2605.11137 [math.CO]"
+    url: "https://arxiv.org/abs/2605.11137"
+  - type: database
+    title: "The On-Line Encyclopedia of Integer Sequences, A392714"
+    url: "https://oeis.org/A392714"
+preferred-citation:
+  type: article
+  title: "The alternating compositions of weighted differential operators yield the weights' Wronskian with which constant?"
+  authors:
+    - family-names: Shah
+      given-names: Kian C.
+    - family-names: Kiselev
+      given-names: Arthemy V.
+  year: 2026
+  url: "https://arxiv.org/abs/2605.11137"
